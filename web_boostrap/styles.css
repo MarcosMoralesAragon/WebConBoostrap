@@ -1,10 +1,10 @@
 /* Valores que voy a usar mucho asi que le asigno una etiqueta*/
 
 :root {
-    --dark-color: #1a1a1a;
-    --white-color: #ffffff;
-    --light-grey-color: #f5f5f5;
-    --gold-color: #ffb944;
+    --color-negro: #1a1a1a;
+    --color-blanco: #ffffff;
+    --color-gris: #f5f5f5;
+    --color-dorado: #ffb944;
 }
 
 * {
@@ -21,11 +21,11 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.bgDark { background-color: var(--dark-color); }
-.bgLight { background-color: var(--white-color); }
-.bgLightGrey { background-color: var(--light-grey-color); }
+.bgDark { background-color: var(--color-negro); }
+.bgLight { background-color: var(--color-blanco); }
+.bgLightGrey { background-color: var(--color-gris); }
 
-.colorDark { color: var(--dark-color) !important; }
+.colorDark { color: var(--color-negro) !important; }
 
 h1 { font-size: 66px; font-weight: 700; line-height: 80px; }
 h2 { font-size: 48px; margin-bottom: 30px; }
@@ -34,7 +34,7 @@ h5 { margin-bottom: 0px; }
 
 p {
     font-size: 18px;
-    color: var(--dark-color);
+    color: var(--color-negro);
     opacity: .5;
     line-height: 1.8;
     margin-bottom: 0px;
@@ -51,26 +51,26 @@ a:hover { text-decoration: none; }
 }
 
 .btn-primary {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    border: 2px solid var(--dark-color);
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    border: 2px solid var(--color-negro);
 }
 
 .btn-secondary {
-    background-color: var(--white-color);
-    color: var(--dark-color);
-    border: 2px solid var(--white-color);
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+    border: 2px solid var(--color-blanco);
 }
 
 .btn-alternate {
     background-color: transparent;
-    color: var(--white-color);
-    border: 2px solid var(--white-color);
+    color: var(--color-blanco);
+    border: 2px solid var(--color-blanco);
 }
 
-.btn-primary:hover { background-color: var(--dark-color); border: 2px solid var(--dark-color); }
-.btn-secondary:hover { background-color: var(--white-color); color: var(--dark-color); border: 2px solid var(--white-color); }
-.btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
+.btn-primary:hover { background-color: var(--color-negro); border: 2px solid var(--color-negro); }
+.btn-secondary:hover { background-color: var(--color-blanco); color: var(--color-negro); border: 2px solid var(--color-blanco); }
+.btn-secondary:focus { background-color: var(--color-blanco) !important; outline: none; border: 2px solid var(--color-blanco) !important; box-shadow: none; }
 
 .logo-brand {
     width: 8%;
@@ -78,7 +78,7 @@ a:hover { text-decoration: none; }
 
 section { padding: 120px 0; }
 
-.divider { border-bottom: 2px solid var(--light-grey-color); }
+.divider { border-bottom: 2px solid var(--color-gris); }
 
 .content-center {
     max-width: 800px;
@@ -90,6 +90,10 @@ section { padding: 120px 0; }
     width: 100%;
 }
 
+.correo-button-width {
+    width: 80%;
+}
+
 .form-control {
     font-size: 14px;
     border: 1px solid #cacaca;
@@ -98,19 +102,19 @@ section { padding: 120px 0; }
 }
 
 .form-control:focus {
-    border: 1px solid var(--dark-color);
+    border: 1px solid var(--color-negro);
     outline: none;
     box-shadow: none;
 }
 
 .navbar {
-    background-color: var(--white-color);
+    background-color: var(--color-blanco);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
     min-height: 100px;
 }
 
-.nav-link { color: var(--dark-color); }
-.nav-link:hover { color: var(--dark-color); }
+.nav-link { color: var(--color-negro); }
+.nav-link:hover { color: var(--color-negro); }
 
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
@@ -125,11 +129,11 @@ section { padding: 120px 0; }
     background-position: 65%;
     padding-top: 90px;
     min-height: 700px;
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 #hero p {
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 /* //////////////
@@ -167,7 +171,7 @@ section { padding: 120px 0; }
 }
 
 .portfolio-details a h2, .portfolio-details a p {
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 /* //////////////
@@ -185,14 +189,14 @@ section { padding: 120px 0; }
 }
 
 .plan-light {
-    background-color: var(--white-color);
-    border: 2px solid var(--dark-color);
+    background-color: var(--color-blanco);
+    border: 2px solid var(--color-negro);
 }
 
 .plan-dark {
-    background-color: var(--dark-color);
-    border: 2px solid var(--dark-color);
-    color: var(--white-color);
+    background-color: var(--color-negro);
+    border: 2px solid var(--color-negro);
+    color: var(--color-blanco);
 }
 
 .plans h2 {
@@ -222,11 +226,11 @@ section { padding: 120px 0; }
 .carousel-item p {
     font-size: 26px;
     font-weight: 400;
-    color: var(--dark-color);
+    color: var(--color-negro);
 }
 
 .carousel-indicators li {
-    background-color: var(--dark-color);
+    background-color: var(--color-negro);
     width: 15px;
     height: 15px;
     border-radius: 2px;
@@ -234,18 +238,18 @@ section { padding: 120px 0; }
 }
 
 .carousel-control-next, .carousel-control-prev { 
-    color: var(--white-color);
+    color: var(--color-blanco);
     opacity: 1;
     width: 5%;
 }
 
 .control-button {
-    background-color: var(--dark-color);
+    background-color: var(--color-negro);
     opacity: 1;
     width: 50px;
     height: 50px;
     padding: 10px;
-    border: 1px solid var(--dark-color);
+    border: 1px solid var(--color-negro);
     border-radius: 50px;
     font-size: 20px;
 }
@@ -276,7 +280,7 @@ section { padding: 120px 0; }
 }
 
 .rating i {
-    color: var(--gold-color);
+    color: var(--);
     font-size: 26px;
 }
 
@@ -287,15 +291,15 @@ section { padding: 120px 0; }
 footer {
     padding: 80px 0;
     text-align: center;
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 footer a {
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 footer a:hover {
-    color: var(--white-color);
+    color: var(--color-blanco);
 }
 
 footer .list-inline .list-inline-item {
