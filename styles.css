@@ -137,7 +137,7 @@ section { padding: 120px 0; }
 }
 
 /* //////////////
-   Portfolio
+   Galeria imagenes
 //////////////*/
 
 .portfolio-container {
@@ -175,7 +175,7 @@ section { padding: 120px 0; }
 }
 
 /* //////////////
-   Pricing
+   Precios
 //////////////*/
 
 .pricing-container {
@@ -213,7 +213,7 @@ section { padding: 120px 0; }
 }
 
 /* //////////////
-   Testimonial
+   Testimonios
 //////////////*/
 
 .carousel {
@@ -235,23 +235,6 @@ section { padding: 120px 0; }
     height: 15px;
     border-radius: 2px;
     margin: 0 8px;
-}
-
-.carousel-control-next, .carousel-control-prev { 
-    color: var(--color-blanco);
-    opacity: 1;
-    width: 5%;
-}
-
-.control-button {
-    background-color: var(--color-negro);
-    opacity: 1;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    border: 1px solid var(--color-negro);
-    border-radius: 50px;
-    font-size: 20px;
 }
 
 .carousel-container {
